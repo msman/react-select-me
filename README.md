@@ -35,6 +35,42 @@ Yes, yes! You can inspect dropdown list with help of DevTools. You know what I'm
 
 **Still not sure? We have a lot of other cool features. Take a look at our [examples](#examples).**
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+  - [Live](#live)
+  - [Local](#local)
+- [Properties:](#properties)
+  - [options: Array](#options-array)
+  - [value: Any](#value-any)
+  - [multiple: Bool](#multiple-bool)
+  - [searchable: Bool](#searchable-bool)
+  - [virtualized: Bool](#virtualized-bool)
+  - [immutable: Bool](#immutable-bool)
+  - [onChange: Function](#onchange-function)
+  - [onSearch: Function](#onsearch-function)
+  - [onAddNewItem: Bool](#onaddnewitem-bool)
+  - [selectedValueRenderer: Function](#selectedvaluerenderer-function)
+  - [selectedBlockRenderer: Function](#selectedblockrenderer-function)
+  - [optionRenderer: Function](#optionrenderer-function)
+  - [listRenderer: Function](#listrenderer-function)
+  - [iconRenderer: Function](#iconrenderer-function)
+  - [noItemsFound: Bool | String | Function](#noitemsfound-bool--string--function)
+  - [addNewItem: Bool | String | Function](#addnewitem-bool--string--function)
+  - [isOpened: Bool](#isopened-bool)
+  - [beforeOpen: Function](#beforeopen-function)
+  - [beforeClose: Function](#beforeclose-function)
+  - [onOpen: Function](#onopen-function)
+  - [onClose: Function](#onclose-function)
+  - [searchClearOnClose: Bool](#searchclearonclose-bool)
+  - [listMaxHeight: Number](#listmaxheight-number)
+  - [listHeight: Number](#listheight-number)
+  - [optionHeight: Number | Function](#optionheight-number--function)
+  - [listPosition: String](#listposition-string)
+  - [getWrapper: Function](#getwrapper-function)
+  - [boundaryMargin: Number](#boundarymargin-number)
+  - [s: Object](#s-object)
+
 ## Installation
 `npm i react-select-me --save`
 
